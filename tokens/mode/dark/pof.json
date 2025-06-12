@@ -1,0 +1,20 @@
+{
+  "mode": {
+    "color": {
+      "subs3": {
+        "value": "{semantic.color.subs3.normal.light}",
+        "type": "color",
+        "description": "not used in affinity brands"
+      },
+      "subs3Dark": {
+        "value": "{semantic.color.subs3.darker.light}",
+        "type": "color",
+        "description": "not used in affinity"
+      },
+      "subs3GraphicGradient": {
+        "value": "{semantic.color.subs3.graphicGradient.light}",
+        "type": "color"
+      }
+    }
+  }
+}

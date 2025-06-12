@@ -1,0 +1,278 @@
+{
+  "mode": {
+    "color": {
+      "onboardingFooterOverlay": {
+        "value": "{semantic.color.onboardingBottomBgGradient.light}",
+        "type": "color",
+        "description": "previous 'mode.color.overlayOnboardingView'",
+        "parent": "mode/light",
+        "oldValue": "{semantic.color.onboardingBottomBgGradient.light}"
+      },
+      "secondary": {
+        "value": "{semantic.color.accent2.normal.light}",
+        "type": "color"
+      },
+      "onSecondary": {
+        "value": "{semantic.color.onAccent2.light}",
+        "type": "color"
+      },
+      "secondaryTint": {
+        "value": "{semantic.color.accent2.lighter.light}",
+        "type": "color"
+      },
+      "secondaryTintLightest": {
+        "value": "{semantic.color.accent2.lightest.light}",
+        "type": "color"
+      },
+      "secondaryDark": {
+        "value": "{semantic.color.accent2.darker.light}",
+        "type": "color"
+      },
+      "surface": {
+        "value": "{semantic.color.surface.light}",
+        "type": "color",
+        "description": "not used in affinity brands. Need to rename/rethink. 'mode.color.surface' serves as the base surface color for UI elements, providing a neutral backdrop for content.",
+        "parent": "mode/light",
+        "oldValue": "{semantic.color.action.light}"
+      },
+      "onPromo": {
+        "value": "{semantic.color.onPromo.normal.light}",
+        "type": "color"
+      },
+      "profileHighlight": {
+        "value": "#ff617e",
+        "type": "color",
+        "description": "not used in affinity brands"
+      },
+      "profileHighlightGradient": {
+        "value": "linear-gradient(90deg, rgba(255,97,126,1) 0%, rgba(145,82,193,1) 35%, rgba(92,102,240,1) 100%)",
+        "type": "color"
+      },
+      "alertDark": {
+        "value": "{semantic.color.alert.darker.light}",
+        "type": "color"
+      },
+      "alertTintLightest": {
+        "value": "{semantic.color.alert.lightest.light}",
+        "type": "color"
+      },
+      "onlineSecondary": {
+        "value": "{semantic.color.online.secondary.light}",
+        "type": "color"
+      },
+      "likeAlc": {
+        "value": "{semantic.color.likeAlc.normal.light}",
+        "type": "color"
+      },
+      "onLikeAlc": {
+        "value": "{semantic.color.onLikeAlc.light}",
+        "type": "color"
+      },
+      "likeAlcTint": {
+        "value": "{semantic.color.likeAlc.lighter.light}",
+        "type": "color"
+      },
+      "likeAlcTintLightest": {
+        "value": "{semantic.color.likeAlc.lightest.light}",
+        "type": "color"
+      },
+      "likeAlcDark": {
+        "value": "{semantic.color.likeAlc.darker.light}",
+        "type": "color"
+      },
+      "boost": {
+        "value": "{semantic.color.boost.normal.light}",
+        "type": "color"
+      },
+      "boostTint": {
+        "value": "{semantic.color.boost.lighter.light}",
+        "type": "color"
+      },
+      "boostTintLightest": {
+        "value": "{semantic.color.boost.lightest.light}",
+        "type": "color"
+      },
+      "onBoost": {
+        "value": "{semantic.color.onBoost.light}",
+        "type": "color"
+      },
+      "mbm": {
+        "value": "{semantic.color.mbm.normal.light}",
+        "type": "color"
+      },
+      "mbmTintLightest": {
+        "value": "{semantic.color.mbm.lightest.light}",
+        "type": "color"
+      },
+      "mbmTint": {
+        "value": "{semantic.color.mbm.lighter.light}",
+        "type": "color"
+      },
+      "mbmDark": {
+        "value": "{semantic.color.mbm.darker.light}",
+        "type": "color",
+        "description": "used on text and button states"
+      },
+      "mbmGradient": {
+        "value": "{semantic.color.mbm.gradient.light}",
+        "type": "color"
+      },
+      "onMbm": {
+        "value": "{semantic.color.onMbm.light}",
+        "type": "color"
+      },
+      "like": {
+        "value": "{semantic.color.like.normal.light}",
+        "type": "color"
+      },
+      "likeTint": {
+        "value": "{semantic.color.like.lighter.light}",
+        "type": "color"
+      },
+      "likeTintLightest": {
+        "value": "{semantic.color.like.lightest.light}",
+        "type": "color"
+      },
+      "onLike": {
+        "value": "{semantic.color.onLike.light}",
+        "type": "color"
+      },
+      "likeDark": {
+        "value": "{semantic.color.like.darker.light}",
+        "type": "color"
+      },
+      "gamepad": {
+        "mbm": {
+          "background": {
+            "default": {
+              "value": "{semantic.color.mbm.normal.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            },
+            "pressed": {
+              "value": "{semantic.color.mbm.darker.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            }
+          },
+          "foreground": {
+            "default": {
+              "value": "{semantic.color.onMbm.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            },
+            "pressed": {
+              "value": "{semantic.color.onMbm.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            },
+            "remaining": {
+              "value": "{core.color.white.100}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            }
+          },
+          "border": {
+            "remaining": {
+              "value": "{semantic.color.mbm.normal.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            }
+          }
+        },
+        "like": {
+          "background": {
+            "default": {
+              "value": "{semantic.color.like.normal.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            },
+            "pressed": {
+              "value": "{semantic.color.like.darker.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            }
+          },
+          "foreground": {
+            "default": {
+              "value": "{semantic.color.onLike.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            },
+            "pressed": {
+              "value": "{semantic.color.onLike.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            }
+          },
+          "dropshadow": {
+            "pressed": {
+              "value": "{semantic.color.like.normal.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            }
+          }
+        },
+        "pass": {
+          "background": {
+            "default": {
+              "value": "{semantic.color.pass.normal.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            },
+            "pressed": {
+              "value": "{semantic.color.pass.darker.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            }
+          },
+          "foreground": {
+            "default": {
+              "value": "{semantic.color.onPass.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            },
+            "pressed": {
+              "value": "{semantic.color.onPass.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            }
+          }
+        },
+        "likeAlc": {
+          "background": {
+            "default": {
+              "value": "{semantic.color.likeAlc.normal.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            },
+            "pressed": {
+              "value": "{semantic.color.likeAlc.darker.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            }
+          },
+          "foreground": {
+            "default": {
+              "value": "{semantic.color.onLikeAlc.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            },
+            "pressed": {
+              "value": "{semantic.color.onLikeAlc.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            }
+          },
+          "border": {
+            "remaining": {
+              "value": "{semantic.color.likeAlc.normal.light}",
+              "type": "color",
+              "description": "🚧 WIP for brand expansions."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,707 @@
+{
+  "semantic": {
+    "color": {
+      "accent2": {
+        "lightest": {
+          "light": {
+            "value": "{core.color.gray.5}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.95}",
+            "type": "color"
+          }
+        },
+        "lighter": {
+          "light": {
+            "value": "{core.color.gray.20}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.80}",
+            "type": "color"
+          }
+        },
+        "normal": {
+          "light": {
+            "value": "{core.color.gray.50}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.60}",
+            "type": "color"
+          }
+        },
+        "darker": {
+          "light": {
+            "value": "{core.color.gray.80}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.20}",
+            "type": "color"
+          }
+        }
+      },
+      "onAccent2": {
+        "light": {
+          "value": "{core.color.white.100}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{core.color.white.100}",
+          "type": "color"
+        }
+      },
+      "accent3": {
+        "lightest": {
+          "light": {
+            "value": "{core.color.gray.5}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.95}",
+            "type": "color"
+          }
+        },
+        "lighter": {
+          "light": {
+            "value": "{core.color.gray.20}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.80}",
+            "type": "color"
+          }
+        },
+        "normal": {
+          "light": {
+            "value": "{core.color.gray.50}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.60}",
+            "type": "color"
+          }
+        },
+        "darker": {
+          "light": {
+            "value": "{core.color.gray.80}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.20}",
+            "type": "color"
+          }
+        }
+      },
+      "onAccent3": {
+        "light": {
+          "value": "{core.color.white.100}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{core.color.white.100}",
+          "type": "color"
+        }
+      },
+      "subs1": {
+        "lightest": {
+          "light": {
+            "value": "{core.color.gray.5}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.95}",
+            "type": "color"
+          }
+        },
+        "lighter": {
+          "light": {
+            "value": "{core.color.gray.20}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.80}",
+            "type": "color"
+          }
+        },
+        "normal": {
+          "light": {
+            "value": "{core.color.gray.50}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.60}",
+            "type": "color"
+          }
+        },
+        "darker": {
+          "light": {
+            "value": "{core.color.gray.80}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.20}",
+            "type": "color"
+          }
+        },
+        "gradient": {
+          "light": {
+            "value": "linear-gradient(90deg, {core.color.gray.30} 0%, {core.color.gray.40} 100%)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "linear-gradient(90deg, {core.color.gray.20} 0%, {core.color.gray.30} 100%)",
+            "type": "color"
+          }
+        }
+      },
+      "onSubs1": {
+        "light": {
+          "value": "{core.color.white.100}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{core.color.white.100}",
+          "type": "color"
+        }
+      },
+      "subs2": {
+        "lightest": {
+          "light": {
+            "value": "{core.color.gray.5}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.95}",
+            "type": "color"
+          }
+        },
+        "lighter": {
+          "light": {
+            "value": "{core.color.gray.20}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.80}",
+            "type": "color"
+          }
+        },
+        "normal": {
+          "light": {
+            "value": "{core.color.gray.50}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.60}",
+            "type": "color"
+          }
+        },
+        "darker": {
+          "light": {
+            "value": "{core.color.gray.80}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.20}",
+            "type": "color"
+          }
+        },
+        "gradient": {
+          "light": {
+            "value": "linear-gradient(90deg, {core.color.gray.50} 0%, {core.color.gray.60} 100%)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "linear-gradient(90deg, {core.color.gray.50} 0%, {core.color.gray.60} 100%)",
+            "type": "color"
+          }
+        },
+        "overlay": {
+          "light": {
+            "value": "rgba({semantic.color.subs2.normal.light}, 0.35)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "rgba( {semantic.color.subs2.normal.dark} , 0.35)",
+            "type": "color"
+          }
+        }
+      },
+      "onSubs2": {
+        "light": {
+          "value": "{core.color.white.100}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{core.color.white.100}",
+          "type": "color"
+        }
+      },
+      "subs3": {
+        "gradient": {
+          "light": {
+            "value": "linear-gradient(120deg, #ffffff 0%, #f6f6f6 50%, #f6f6f6 100%)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "linear-gradient(120deg, #ffffff 0%, #f6f6f6 50%, #f6f6f6 100%)",
+            "type": "color"
+          }
+        },
+        "lightest": {
+          "light": {
+            "value": "#D8E6EE",
+            "type": "color"
+          },
+          "dark": {
+            "value": "#60666A",
+            "type": "color"
+          }
+        },
+        "backgroundGradient": {
+          "light": {
+            "value": "linear-gradient(180deg, #1A1A1A 22%, #0F0F0F 43%,  #0F0F0F 100%)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "linear-gradient(180deg, #1A1A1A 22%, #0F0F0F 43%,  #0F0F0F 100%)",
+            "type": "color"
+          }
+        },
+        "background": {
+          "light": {
+            "value": "{core.color.gray.90}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.95}",
+            "type": "color"
+          }
+        },
+        "graphicGradient": {
+          "light": {
+            "value": "linear-gradient(90deg, #EFBB72 30%, #B47E3E 100%)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "linear-gradient(90deg, #EFBB72 30%, #B47E3E 100%)",
+            "type": "color"
+          }
+        },
+        "normal": {
+          "light": {
+            "value": "{core.color.gray.30}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.30}",
+            "type": "color"
+          }
+        },
+        "darker": {
+          "light": {
+            "value": "{core.color.gray.50}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.20}",
+            "type": "color"
+          }
+        }
+      },
+      "onSubs3": {
+        "gradient": {
+          "light": {
+            "value": "{core.color.gray.10}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.95}",
+            "type": "color"
+          }
+        },
+        "backgroundGradient": {
+          "light": {
+            "value": "{core.color.gray.95}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.75}",
+            "type": "color"
+          }
+        }
+      },
+      "stealth": {
+        "lightest": {
+          "light": {
+            "value": "{core.color.gray.5}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.95}",
+            "type": "color"
+          }
+        },
+        "normal": {
+          "light": {
+            "value": "{core.color.gray.20}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.20}",
+            "type": "color"
+          }
+        }
+      },
+      "onStealth": {
+        "light": {
+          "value": "{core.color.black.100}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{core.color.black.100}",
+          "type": "color"
+        }
+      },
+      "boost": {
+        "normal": {
+          "light": {
+            "value": "{core.color.gray.40}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.60}",
+            "type": "color"
+          }
+        },
+        "lightest": {
+          "light": {
+            "value": "{core.color.gray.5}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.95}",
+            "type": "color"
+          }
+        },
+        "lighter": {
+          "light": {
+            "value": "{core.color.gray.20}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.red.80}",
+            "type": "color"
+          }
+        },
+        "light-gradient": {
+          "light": {
+            "value": "linear-gradient(297deg, #FFFDF3 10.79%, #FF90A4 118.61%)",
+            "type": "color"
+          }
+        },
+        "dark-gradient": {
+          "light": {
+            "value": "linear-gradient(66deg, #FF5877 0%, #FFC7D2 97.32%)",
+            "type": "color"
+          }
+        }
+      },
+      "onBoost": {
+        "light": {
+          "value": "{core.color.white.100}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{core.color.white.100}",
+          "type": "color"
+        }
+      },
+      "promo": {
+        "normal": {
+          "light": {
+            "value": "linear-gradient(225deg, #8c93f7 0%, #ffc7d2 48%, #fdf4e5 100%)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "linear-gradient(225deg, #8c93f7 0%, #ffc7d2 48%, #fdf4e5 100%)",
+            "type": "color"
+          }
+        }
+      },
+      "onPromo": {
+        "normal": {
+          "light": {
+            "value": "{core.color.black.100}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.black.100}",
+            "type": "color"
+          }
+        }
+      },
+      "dating": {
+        "lighter": {
+          "light": {
+            "value": "{core.color.gray.5}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.95}",
+            "type": "color"
+          }
+        },
+        "normal": {
+          "light": {
+            "value": "{core.color.gray.30}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.30}",
+            "type": "color"
+          }
+        },
+        "darker": {
+          "light": {
+            "value": "{core.color.gray.50}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.40}",
+            "type": "color"
+          }
+        },
+        "lightest": {
+          "light": {
+            "value": "{core.color.gray.5}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.95}",
+            "type": "color"
+          }
+        },
+        "overlay": {
+          "light": {
+            "value": "rgba({semantic.color.dating.normal.light}, 0.15)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "rgba( {semantic.color.dating.normal.dark} , 0.15)",
+            "type": "color"
+          }
+        }
+      },
+      "mbm": {
+        "gradient": {
+          "light": {
+            "value": "{core.color.gray.50}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.40}",
+            "type": "color"
+          }
+        }
+      },
+      "social": {
+        "normal": {
+          "light": {
+            "value": "{core.color.gray.30}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.50}",
+            "type": "color"
+          }
+        },
+        "lighter": {
+          "light": {
+            "value": "{core.color.gray.10}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.80}",
+            "type": "color"
+          }
+        },
+        "darker": {
+          "light": {
+            "value": "{core.color.gray.80}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.10}",
+            "type": "color"
+          }
+        },
+        "lightest": {
+          "light": {
+            "value": "{core.color.gray.80}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.10}",
+            "type": "color"
+          }
+        },
+        "overlay": {
+          "light": {
+            "value": "rgba({semantic.color.social.normal.light}, 0.15)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "rgba( {semantic.color.social.normal.dark} , 0.15)",
+            "type": "color"
+          }
+        }
+      },
+      "mixed": {
+        "lighter": {
+          "light": {
+            "value": "{core.color.gray.30}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.60}",
+            "type": "color"
+          }
+        }
+      },
+      "error": {
+        "normal": {
+          "light": {
+            "value": "{core.color.gray.60}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{core.color.gray.40}",
+            "type": "color"
+          }
+        },
+        "onboarding": {
+          "light": {
+            "value": "{semantic.color.error.normal.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{semantic.color.error.normal.dark}",
+            "type": "color"
+          }
+        }
+      },
+      "onboardingBottomBgSolid": {
+        "light": {
+          "value": "{core.color.white.100}",
+          "type": "color",
+          "description": "need to add in all brands"
+        },
+        "dark": {
+          "value": "{core.color.black.100}",
+          "type": "color"
+        }
+      },
+      "splashOverlay": {
+        "value": "{core.color.white.0}",
+        "type": "color"
+      },
+      "onOnboardingBackground": {
+        "secondaryTransparency": {
+          "light": {
+            "value": "rgba( {semantic.color.onOnboardingBackground.primary.light}, 0.75)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "rgba( {semantic.color.onOnboardingBackground.primary.dark}, 0.75)",
+            "type": "color"
+          }
+        },
+        "tertiaryTransparency": {
+          "light": {
+            "value": "rgba( {semantic.color.onOnboardingBackground.primary.light}, 0.55)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "rgba( {semantic.color.onOnboardingBackground.primary.dark}, 0.55)",
+            "type": "color"
+          }
+        },
+        "quaternaryTransparency": {
+          "light": {
+            "value": "rgba( {semantic.color.onOnboardingBackground.primary.light}, 0.25)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "rgba( {semantic.color.onOnboardingBackground.primary.dark}, 0.25)",
+            "type": "color"
+          }
+        },
+        "senaryTransparency": {
+          "light": {
+            "value": "rgba( {semantic.color.onOnboardingBackground.primary.light}, 0.1)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "rgba( {semantic.color.onOnboardingBackground.primary.dark}, 0.1)",
+            "type": "color"
+          }
+        }
+      },
+      "onBackground": {
+        "secondaryTransparency": {
+          "light": {
+            "value": "rgba( {semantic.color.onBackground.primary.light}, 0.75)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "rgba( {semantic.color.onBackground.primary.dark} , 0.75)",
+            "type": "color"
+          }
+        },
+        "tertiaryTransparency": {
+          "light": {
+            "value": "rgba( {semantic.color.onBackground.primary.light}, 0.55)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "rgba( {semantic.color.onBackground.primary.dark} , 0.55)",
+            "type": "color"
+          }
+        },
+        "quaternaryTransparency": {
+          "light": {
+            "value": "rgba( {semantic.color.onBackground.primary.light}, 0.25)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "rgba( {semantic.color.onBackground.primary.dark} , 0.25)",
+            "type": "color"
+          }
+        },
+        "quinaryTransparency": {
+          "light": {
+            "value": "rgba( {semantic.color.onBackground.quaternary.light}, 0.20)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "rgba( {semantic.color.onBackground.quaternary.dark}, 0.20)",
+            "type": "color"
+          }
+        },
+        "senaryTransparency": {
+          "light": {
+            "value": "rgba( {semantic.color.onBackground.primary.light}, 0.08)",
+            "type": "color"
+          },
+          "dark": {
+            "value": "rgba( {semantic.color.onBackground.primary.dark} , 0.08)",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
