@@ -2,15 +2,15 @@
   "mode": {
     "color": {
       "background": {
-        "value": "{semantic.color.background.light}",
+        "value": "{semantic.color.background.dark}",
         "type": "color"
       },
       "footerOverlay": {
-        "value": "linear-gradient(180deg, {mode.color.transparent} 0%, {semantic.color.background.light} 34%)",
+        "value": "linear-gradient(180deg, {mode.color.transparent} 0%, {semantic.color.background.dark} 34%)",
         "type": "color",
         "description": "previous mode.color.overlayBackground",
         "parent": "mode/light",
-        "oldValue": "{semantic.color.onboardingBottomBgGradient.light}"
+        "oldValue": "{semantic.color.onboardingBottomBgGradient.dark}"
       },
       "primaryOverlay": {
         "value": "{core.color.black.50}",
@@ -19,60 +19,70 @@
         "parent": "mode/light",
         "oldValue": "{core.color.black.50}"
       },
+      "profileBottomOverlay": {
+        "value": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.3) 40%, {core.color.black.75} 100%)",
+        "type": "color",
+        "description": "previous: mode.color.profileOverlayGradient"
+      },
+      "profileTopOverlay": {
+        "value": "linear-gradient(180deg, {core.color.black.50} 0%, {core.color.black.0} 100%)",
+        "type": "color",
+        "description": "previous: mode.color.profieOverlayTop"
+      },
       "transparent": {
         "value": "{core.color.white.0}",
         "type": "color"
       },
       "onBackground": {
         "primary": {
-          "value": "{semantic.color.onBackground.primary.light}",
+          "value": "{semantic.color.onBackground.primary.dark}",
           "type": "color"
         },
         "secondary": {
-          "value": "{semantic.color.onBackground.secondaryTransparency.light}",
+          "value": "{semantic.color.onBackground.secondaryTransparency.dark}",
           "type": "color"
         },
         "secondaryOpaque": {
-          "value": "{semantic.color.onBackground.secondary.light}",
+          "value": "{semantic.color.onBackground.secondary.dark}",
           "type": "color"
         },
         "tertiary": {
-          "value": "{semantic.color.onBackground.tertiaryTransparency.light}",
+          "value": "{semantic.color.onBackground.tertiaryTransparency.dark}",
           "type": "color"
         },
         "tertiaryOpaque": {
-          "value": "{semantic.color.onBackground.tertiary.light}",
+          "value": "{semantic.color.onBackground.tertiary.dark}",
           "type": "color"
         },
         "quaternary": {
-          "value": "{semantic.color.onBackground.quaternaryTransparency.light}",
+          "value": "{semantic.color.onBackground.quaternaryTransparency.dark}",
           "type": "color",
           "description": "dividers, hint texts"
         },
         "quaternaryOpaque": {
-          "value": "{semantic.color.onBackground.quaternary.light}",
+          "value": "{semantic.color.onBackground.quaternary.dark}",
           "type": "color"
         },
         "quinary": {
-          "value": "{semantic.color.onBackground.quinaryTransparency.light}",
+          "value": "{semantic.color.onBackground.quinaryTransparency.dark}",
           "type": "color",
           "description": "uses a 'mode.color.onBackground.quatenaryOpaque' with alpha to maintain subtlety on both light and dark backgrounds on light mode."
         },
         "quinaryOpaque": {
-          "value": "{semantic.color.onBackground.quinary.light}",
+          "value": "{semantic.color.onBackground.quinary.dark}",
           "type": "color"
         },
         "senary": {
-          "value": "{semantic.color.onBackground.senaryTransparency.light}",
+          "value": "{semantic.color.onBackground.senaryTransparency.dark}",
           "type": "color"
         },
         "senaryOpaque": {
-          "value": "{semantic.color.onBackground.senary.light}",
+          "value": "{semantic.color.onBackground.senary.dark}",
           "type": "color"
         }
       },
       "onOnBackground": {
-        "value": "{semantic.color.background.light}",
+        "value": "{semantic.color.background.dark}",
         "type": "color"
       },
       "onDarkBackground": {
@@ -106,11 +116,11 @@
         "type": "color"
       },
       "splashBackground": {
-        "value": "{semantic.color.splashBackground.light}",
+        "value": "{semantic.color.splashBackground.dark}",
         "type": "color"
       },
       "onSplashBackground": {
-        "value": "{semantic.color.onSplashBackground.light}",
+        "value": "{semantic.color.onSplashBackground.dark}",
         "type": "color"
       },
       "splashOverlay": {
@@ -122,80 +132,104 @@
         "type": "color"
       },
       "onboardingBackground": {
-        "value": "{semantic.color.onboardingBackground.light}",
+        "value": "{semantic.color.onboardingBackground.dark}",
         "type": "color"
       },
       "onboardingFooterOverlay": {
-        "value": "{semantic.color.onboardingBottomBgGradient.light}",
+        "value": "{semantic.color.onboardingBottomBgGradient.dark}",
         "type": "color",
         "description": "previous 'mode.color.overlayOnboardingView'",
         "parent": "mode/light",
-        "oldValue": "{semantic.color.onboardingBottomBgGradient.light}"
+        "oldValue": "{semantic.color.onboardingBottomBgGradient.dark}"
       },
       "onboardingFooterSolid": {
-        "value": "{semantic.color.onboardingBottomBgSolid.light}",
+        "value": "{semantic.color.onboardingBottomBgSolid.dark}",
         "type": "color",
         "parent": "mode/light",
-        "oldValue": "{semantic.color.onboardingBottomBgGradient.light}"
+        "oldValue": "{semantic.color.onboardingBottomBgGradient.dark}"
       },
       "onOnboardingBackground": {
         "primary": {
-          "value": "{semantic.color.onOnboardingBackground.primary.light}",
+          "value": "{semantic.color.onOnboardingBackground.primary.dark}",
           "type": "color"
         },
         "secondary": {
-          "value": "{semantic.color.onOnboardingBackground.secondaryTransparency.light}",
+          "value": "{semantic.color.onOnboardingBackground.secondaryTransparency.dark}",
           "type": "color"
         },
         "tertiary": {
-          "value": "{semantic.color.onOnboardingBackground.tertiaryTransparency.light}",
+          "value": "{semantic.color.onOnboardingBackground.tertiaryTransparency.dark}",
           "type": "color",
           "description": "hint text"
         },
         "quaternary": {
-          "value": "{semantic.color.onOnboardingBackground.quaternaryTransparency.light}",
+          "value": "{semantic.color.onOnboardingBackground.quaternaryTransparency.dark}",
           "type": "color"
         },
         "senary": {
-          "value": "{semantic.color.onOnboardingBackground.senaryTransparency.light}",
+          "value": "{semantic.color.onOnboardingBackground.senaryTransparency.dark}",
           "type": "color"
         },
         "error": {
-          "value": "{semantic.color.error.onboarding.light}",
+          "value": "{semantic.color.error.onboarding.dark}",
           "type": "color"
         }
       },
       "onOnOnboardingBackground": {
-        "value": "{semantic.color.onOnboardingForeground.light}",
+        "value": "{semantic.color.onOnboardingForeground.dark}",
         "type": "color",
         "description": "previous: mode.color.onOnboardingForeground"
       },
       "primary": {
-        "value": "{semantic.color.accent1.normal.light}",
+        "value": "{semantic.color.accent1.normal.dark}",
         "type": "color"
       },
       "onPrimary": {
-        "value": "{semantic.color.onAccent1.light}",
+        "value": "{semantic.color.onAccent1.dark}",
         "type": "color"
       },
       "primaryTint": {
-        "value": "{semantic.color.accent1.lighter.light}",
+        "value": "{semantic.color.accent1.lighter.dark}",
         "type": "color"
       },
       "primaryTintLightest": {
-        "value": "{semantic.color.accent1.lightest.light}",
+        "value": "{semantic.color.accent1.lightest.dark}",
         "type": "color"
       },
       "primaryDark": {
-        "value": "{semantic.color.accent1.darker.light}",
+        "value": "{semantic.color.accent1.darker.dark}",
         "type": "color"
       },
+      "secondary": {
+        "value": "{semantic.color.accent2.normal.dark}",
+        "type": "color",
+        "description": "not used in affinity brands directly. (used in primary button in upward)"
+      },
+      "onSecondary": {
+        "value": "{semantic.color.onAccent2.dark}",
+        "type": "color",
+        "description": "not used in affinity brands directly. (used in primary button in upward)"
+      },
+      "secondaryTint": {
+        "value": "{semantic.color.accent2.lighter.dark}",
+        "type": "color",
+        "description": "not used in affinity brands directly. (used in primary button in upward)"
+      },
+      "secondaryTintLightest": {
+        "value": "{semantic.color.accent2.lightest.dark}",
+        "type": "color"
+      },
+      "secondaryDark": {
+        "value": "{semantic.color.accent2.darker.dark}",
+        "type": "color",
+        "description": "not used in affinity brands directly. (used in primary button in upward)"
+      },
       "onlinePrimary": {
-        "value": "{semantic.color.online.primary.light}",
+        "value": "{semantic.color.online.primary.dark}",
         "type": "color"
       },
       "verified": {
-        "value": "{semantic.color.verified.light}",
+        "value": "{semantic.color.verified.dark}",
         "type": "color"
       },
       "verifiedOnDark": {
@@ -203,19 +237,19 @@
         "type": "color"
       },
       "onVerified": {
-        "value": "{semantic.color.onVerified.light}",
+        "value": "{semantic.color.onVerified.dark}",
         "type": "color"
       },
       "alert": {
-        "value": "{semantic.color.alert.normal.light}",
+        "value": "{semantic.color.alert.normal.dark}",
         "type": "color"
       },
       "onAlert": {
-        "value": "{semantic.color.onAlert.light}",
+        "value": "{semantic.color.onAlert.dark}",
         "type": "color"
       },
       "error": {
-        "value": "{semantic.color.error.normal.light}",
+        "value": "{semantic.color.error.normal.dark}",
         "type": "color"
       },
       "errorOnDark": {
@@ -223,7 +257,7 @@
         "type": "color"
       },
       "success": {
-        "value": "{semantic.color.success.light}",
+        "value": "{semantic.color.success.dark}",
         "type": "color"
       },
       "successOnDark": {
@@ -231,96 +265,118 @@
         "type": "color"
       },
       "action": {
-        "value": "{semantic.color.action.light}",
+        "value": "{semantic.color.action.dark}",
         "type": "color",
         "parent": "mode/light",
-        "oldValue": "{semantic.color.action.light}"
+        "oldValue": "{semantic.color.action.dark}"
       },
       "subs1": {
-        "value": "{semantic.color.subs1.normal.light}",
+        "value": "{semantic.color.subs1.normal.dark}",
         "type": "color"
       },
       "onSubs1": {
-        "value": "{semantic.color.onSubs1.light}",
+        "value": "{semantic.color.onSubs1.dark}",
         "type": "color"
       },
       "subs1Tint": {
-        "value": "{semantic.color.subs1.lighter.light}",
+        "value": "{semantic.color.subs1.lighter.dark}",
         "type": "color"
       },
       "subs1TintLightest": {
-        "value": "{semantic.color.subs1.lightest.light}",
+        "value": "{semantic.color.subs1.lightest.dark}",
         "type": "color"
       },
       "subs1Dark": {
-        "value": "{semantic.color.subs1.darker.light}",
+        "value": "{semantic.color.subs1.darker.dark}",
         "type": "color"
       },
       "subs1Gradient": {
-        "value": "{semantic.color.subs1.gradient.light}",
+        "value": "{semantic.color.subs1.gradient.dark}",
         "type": "color"
       },
       "subs2": {
-        "value": "{semantic.color.subs2.normal.light}",
+        "value": "{semantic.color.subs2.normal.dark}",
         "type": "color"
       },
       "onSubs2": {
-        "value": "{semantic.color.onSubs2.light}",
+        "value": "{semantic.color.onSubs2.dark}",
         "type": "color"
       },
       "subs2Tint": {
-        "value": "{semantic.color.subs2.lighter.light}",
+        "value": "{semantic.color.subs2.lighter.dark}",
         "type": "color"
       },
       "subs2Gradient": {
-        "value": "{semantic.color.subs2.gradient.light}",
+        "value": "{semantic.color.subs2.gradient.dark}",
         "type": "color"
       },
       "subs2TintLightest": {
-        "value": "{semantic.color.subs2.lightest.light}",
+        "value": "{semantic.color.subs2.lightest.dark}",
         "type": "color"
       },
       "subs2Dark": {
-        "value": "{semantic.color.subs2.darker.light}",
-        "type": "color"
-      },
-      "subs2Overlay": {
-        "value": "{semantic.color.subs2.overlay.light}",
+        "value": "{semantic.color.subs2.darker.dark}",
         "type": "color"
       },
       "subs3Gradient": {
-        "value": "{semantic.color.subs3.gradient.light}",
+        "value": "{semantic.color.subs3.gradient.dark}",
         "type": "color"
       },
       "subs3TintLightest": {
-        "value": "{semantic.color.subs3.lightest.light}",
+        "value": "{semantic.color.subs3.lightest.dark}",
         "type": "color"
       },
       "onSubs3": {
-        "value": "{semantic.color.onSubs3.gradient.light}",
+        "value": "{semantic.color.onSubs3.gradient.dark}",
         "type": "color"
       },
       "subs3BackgroundGradient": {
-        "value": "{semantic.color.subs3.backgroundGradient.light}",
+        "value": "{semantic.color.subs3.backgroundGradient.dark}",
         "type": "color"
       },
       "subs3Background": {
-        "value": "{semantic.color.subs3.background.light}",
+        "value": "{semantic.color.subs3.background.dark}",
         "type": "color"
       },
       "onSubs3Background": {
-        "value": "{semantic.color.onSubs3.backgroundGradient.light}",
+        "value": "{semantic.color.onSubs3.backgroundGradient.dark}",
         "type": "color"
       },
-      "profileBottomOverlay": {
-        "value": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.3) 40%, {core.color.black.75} 100%)",
-        "type": "color",
-        "description": "previous: mode.color.profileOverlayGradient"
+      "likeAlc": {
+        "value": "{semantic.color.likeAlc.normal.dark}",
+        "type": "color"
       },
-      "profileTopOverlay": {
-        "value": "linear-gradient(180deg, {core.color.black.50} 0%, {core.color.black.0} 100%)",
-        "type": "color",
-        "description": "previous: mode.color.profieOverlayTop"
+      "onLikeAlc": {
+        "value": "{semantic.color.onLikeAlc.dark}",
+        "type": "color"
+      },
+      "likeAlcTint": {
+        "value": "{semantic.color.likeAlc.lighter.dark}",
+        "type": "color"
+      },
+      "likeAlcTintLightest": {
+        "value": "{semantic.color.likeAlc.lightest.dark}",
+        "type": "color"
+      },
+      "likeAlcDark": {
+        "value": "{semantic.color.likeAlc.darker.dark}",
+        "type": "color"
+      },
+      "boost": {
+        "value": "{semantic.color.boost.normal.dark}",
+        "type": "color"
+      },
+      "boostTint": {
+        "value": "{semantic.color.boost.lighter.dark}",
+        "type": "color"
+      },
+      "boostTintLightest": {
+        "value": "{semantic.color.boost.lightest.dark}",
+        "type": "color"
+      },
+      "onBoost": {
+        "value": "{semantic.color.onBoost.dark}",
+        "type": "color"
       }
     }
   }

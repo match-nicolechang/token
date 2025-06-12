@@ -1,166 +1,110 @@
 {
   "mode": {
     "color": {
-      "secondary": {
-        "value": "{semantic.color.accent2.normal.light}",
-        "type": "color",
-        "description": "not used in affinity brands directly. (used in primary button in upward)"
-      },
-      "onSecondary": {
-        "value": "{semantic.color.onAccent2.light}",
-        "type": "color",
-        "description": "not used in affinity brands directly. (used in primary button in upward)"
-      },
-      "secondaryTint": {
-        "value": "{semantic.color.accent2.lighter.light}",
-        "type": "color",
-        "description": "not used in affinity brands directly. (used in primary button in upward)"
-      },
-      "secondaryTintLightest": {
-        "value": "{semantic.color.accent2.lightest.light}",
-        "type": "color"
-      },
-      "secondaryDark": {
-        "value": "{semantic.color.accent2.darker.light}",
-        "type": "color",
-        "description": "not used in affinity brands directly. (used in primary button in upward)"
-      },
       "alertDark": {
-        "value": "{semantic.color.alert.darker.light}",
+        "value": "{semantic.color.alert.darker.dark}",
         "type": "color"
       },
       "alertTintLightest": {
-        "value": "{semantic.color.alert.lightest.light}",
+        "value": "{semantic.color.alert.lightest.dark}",
         "type": "color"
       },
       "dating": {
-        "value": "{semantic.color.dating.normal.light}",
+        "value": "{semantic.color.dating.normal.dark}",
         "type": "color"
       },
       "datingOverlay": {
-        "value": "{semantic.color.dating.overlay.light}",
+        "value": "{semantic.color.dating.overlay.dark}",
         "type": "color"
       },
       "datingDark": {
-        "value": "{semantic.color.dating.darker.light}",
+        "value": "{semantic.color.dating.darker.dark}",
         "type": "color"
       },
       "datingTint": {
-        "value": "{semantic.color.dating.lighter.light}",
+        "value": "{semantic.color.dating.lighter.dark}",
         "type": "color"
       },
       "datingTintLightest": {
-        "value": "{semantic.color.dating.lightest.light}",
+        "value": "{semantic.color.dating.lightest.dark}",
         "type": "color"
       },
       "datingChatroomBackground": {
-        "value": "linear-gradient(180deg, {semantic.color.dating.lighter.light} 0%, {semantic.color.background.light} 15%)",
+        "value": "linear-gradient(180deg, {semantic.color.dating.lighter.dark} 0%, {semantic.color.background.dark} 15%)",
         "type": "color"
       },
       "social": {
-        "value": "{semantic.color.social.normal.light}",
+        "value": "{semantic.color.social.normal.dark}",
         "type": "color"
       },
       "socialDark": {
-        "value": "{semantic.color.social.darker.light}",
+        "value": "{semantic.color.social.darker.dark}",
         "type": "color"
       },
       "socialTint": {
-        "value": "{semantic.color.social.lighter.light}",
+        "value": "{semantic.color.social.lighter.dark}",
         "type": "color"
       },
       "socialOverlay": {
-        "value": "{semantic.color.social.overlay.light}",
+        "value": "{semantic.color.social.overlay.dark}",
         "type": "color"
       },
       "socialTintLightest": {
-        "value": "{semantic.color.social.lightest.light}",
+        "value": "{semantic.color.social.lightest.dark}",
         "type": "color"
       },
       "socialChatroomBackground": {
-        "value": "linear-gradient(180deg, {semantic.color.social.lighter.light} 0%, {semantic.color.background.light} 15%)",
+        "value": "linear-gradient(180deg, {semantic.color.social.lighter.dark} 0%, {semantic.color.background.dark} 15%)",
         "type": "color"
       },
       "mixedChatroomBackground": {
-        "value": "linear-gradient(180deg, {semantic.color.mixed.lighter.light}  0%, {semantic.color.background.light} 15%)",
+        "value": "linear-gradient(180deg, {semantic.color.mixed.lighter.dark}  0%, {semantic.color.background.dark} 15%)",
         "type": "color"
       },
       "mixedTint": {
-        "value": "{semantic.color.mixed.lighter.light}",
+        "value": "{semantic.color.mixed.lighter.dark}",
         "type": "color",
         "description": "not used directly on components"
       },
-      "likeAlc": {
-        "value": "{semantic.color.likeAlc.normal.light}",
-        "type": "color"
-      },
-      "onLikeAlc": {
-        "value": "{semantic.color.onLikeAlc.light}",
-        "type": "color"
-      },
-      "likeAlcTint": {
-        "value": "{semantic.color.likeAlc.lighter.light}",
-        "type": "color"
-      },
-      "likeAlcTintLightest": {
-        "value": "{semantic.color.likeAlc.lightest.light}",
-        "type": "color"
-      },
-      "likeAlcDark": {
-        "value": "{semantic.color.likeAlc.darker.light}",
-        "type": "color"
-      },
-      "boost": {
-        "value": "{semantic.color.boost.normal.light}",
-        "type": "color"
-      },
-      "boostTint": {
-        "value": "{semantic.color.boost.lighter.light}",
-        "type": "color"
-      },
-      "boostTintLightest": {
-        "value": "{semantic.color.boost.lightest.light}",
-        "type": "color"
-      },
-      "onBoost": {
-        "value": "{semantic.color.onBoost.light}",
-        "type": "color"
-      },
       "mbm": {
-        "value": "{semantic.color.mbm.normal.light}",
+        "value": "{semantic.color.mbm.normal.dark}",
         "type": "color"
       },
       "mbmTintLightest": {
-        "value": "{semantic.color.mbm.lightest.light}",
+        "value": "{semantic.color.mbm.lightest.dark}",
         "type": "color"
       },
       "mbmTint": {
-        "value": "{semantic.color.mbm.lighter.light}",
+        "value": "{semantic.color.mbm.lighter.dark}",
         "type": "color"
       },
       "mbmDark": {
-        "value": "{semantic.color.mbm.darker.light}",
+        "value": "{semantic.color.mbm.darker.dark}",
         "type": "color",
         "description": "used on text and button states"
       },
       "mbmGradient": {
-        "value": "{semantic.color.mbm.gradient.light}",
+        "value": "{semantic.color.mbm.gradient.dark}",
         "type": "color"
       },
       "onMbm": {
-        "value": "{semantic.color.onMbm.light}",
+        "value": "{semantic.color.onMbm.dark}",
         "type": "color"
       },
       "stealth": {
-        "value": "{semantic.color.stealth.normal.light}",
+        "value": "{semantic.color.stealth.normal.dark}",
         "type": "color"
       },
       "stealthTintLightest": {
-        "value": "{semantic.color.stealth.lightest.light}",
+        "value": "{semantic.color.stealth.lightest.dark}",
         "type": "color"
       },
       "onStealth": {
-        "value": "{semantic.color.onStealth.light}",
+        "value": "{semantic.color.onStealth.dark}",
+        "type": "color"
+      },
+      "subs2Overlay": {
+        "value": "{semantic.color.subs2.overlay.dark}",
         "type": "color"
       }
     }

@@ -36,8 +36,8 @@
     "mode/light/pof",
     "mode/light/affinity",
     "mode/dark/central",
+    "mode/dark/affinity",
     "mode/dark/pof",
-    "mode/dark/mmose",
-    "mode/dark/affinity"
+    "mode/dark/mmose"
   ]
 }

@@ -1,30 +1,6 @@
 {
   "mode": {
     "color": {
-      "secondary": {
-        "value": "{semantic.color.accent2.normal.light}",
-        "type": "color",
-        "description": "not used in affinity brands directly. (used in primary button in upward)"
-      },
-      "onSecondary": {
-        "value": "{semantic.color.onAccent2.light}",
-        "type": "color",
-        "description": "not used in affinity brands directly. (used in primary button in upward)"
-      },
-      "secondaryTint": {
-        "value": "{semantic.color.accent2.lighter.light}",
-        "type": "color",
-        "description": "not used in affinity brands directly. (used in primary button in upward)"
-      },
-      "secondaryTintLightest": {
-        "value": "{semantic.color.accent2.lightest.light}",
-        "type": "color"
-      },
-      "secondaryDark": {
-        "value": "{semantic.color.accent2.darker.light}",
-        "type": "color",
-        "description": "not used in affinity brands directly. (used in primary button in upward)"
-      },
       "alertDark": {
         "value": "{semantic.color.alert.darker.light}",
         "type": "color"
@@ -90,42 +66,6 @@
         "type": "color",
         "description": "not used directly on components"
       },
-      "likeAlc": {
-        "value": "{semantic.color.likeAlc.normal.light}",
-        "type": "color"
-      },
-      "onLikeAlc": {
-        "value": "{semantic.color.onLikeAlc.light}",
-        "type": "color"
-      },
-      "likeAlcTint": {
-        "value": "{semantic.color.likeAlc.lighter.light}",
-        "type": "color"
-      },
-      "likeAlcTintLightest": {
-        "value": "{semantic.color.likeAlc.lightest.light}",
-        "type": "color"
-      },
-      "likeAlcDark": {
-        "value": "{semantic.color.likeAlc.darker.light}",
-        "type": "color"
-      },
-      "boost": {
-        "value": "{semantic.color.boost.normal.light}",
-        "type": "color"
-      },
-      "boostTint": {
-        "value": "{semantic.color.boost.lighter.light}",
-        "type": "color"
-      },
-      "boostTintLightest": {
-        "value": "{semantic.color.boost.lightest.light}",
-        "type": "color"
-      },
-      "onBoost": {
-        "value": "{semantic.color.onBoost.light}",
-        "type": "color"
-      },
       "mbm": {
         "value": "{semantic.color.mbm.normal.light}",
         "type": "color"
@@ -161,6 +101,10 @@
       },
       "onStealth": {
         "value": "{semantic.color.onStealth.light}",
+        "type": "color"
+      },
+      "subs2Overlay": {
+        "value": "{semantic.color.subs2.overlay.light}",
         "type": "color"
       }
     }

@@ -200,6 +200,30 @@
         "value": "{semantic.color.accent1.darker.light}",
         "type": "color"
       },
+      "secondary": {
+        "value": "{semantic.color.accent2.normal.light}",
+        "type": "color",
+        "description": "not used in affinity brands directly. (used in primary button in upward)"
+      },
+      "onSecondary": {
+        "value": "{semantic.color.onAccent2.light}",
+        "type": "color",
+        "description": "not used in affinity brands directly. (used in primary button in upward)"
+      },
+      "secondaryTint": {
+        "value": "{semantic.color.accent2.lighter.light}",
+        "type": "color",
+        "description": "not used in affinity brands directly. (used in primary button in upward)"
+      },
+      "secondaryTintLightest": {
+        "value": "{semantic.color.accent2.lightest.light}",
+        "type": "color"
+      },
+      "secondaryDark": {
+        "value": "{semantic.color.accent2.darker.light}",
+        "type": "color",
+        "description": "not used in affinity brands directly. (used in primary button in upward)"
+      },
       "onlinePrimary": {
         "value": "{semantic.color.online.primary.light}",
         "type": "color"
@@ -294,10 +318,6 @@
         "value": "{semantic.color.subs2.darker.light}",
         "type": "color"
       },
-      "subs2Overlay": {
-        "value": "{semantic.color.subs2.overlay.light}",
-        "type": "color"
-      },
       "subs3Gradient": {
         "value": "{semantic.color.subs3.gradient.light}",
         "type": "color"
@@ -320,6 +340,42 @@
       },
       "onSubs3Background": {
         "value": "{semantic.color.onSubs3.backgroundGradient.light}",
+        "type": "color"
+      },
+      "likeAlc": {
+        "value": "{semantic.color.likeAlc.normal.light}",
+        "type": "color"
+      },
+      "onLikeAlc": {
+        "value": "{semantic.color.onLikeAlc.light}",
+        "type": "color"
+      },
+      "likeAlcTint": {
+        "value": "{semantic.color.likeAlc.lighter.light}",
+        "type": "color"
+      },
+      "likeAlcTintLightest": {
+        "value": "{semantic.color.likeAlc.lightest.light}",
+        "type": "color"
+      },
+      "likeAlcDark": {
+        "value": "{semantic.color.likeAlc.darker.light}",
+        "type": "color"
+      },
+      "boost": {
+        "value": "{semantic.color.boost.normal.light}",
+        "type": "color"
+      },
+      "boostTint": {
+        "value": "{semantic.color.boost.lighter.light}",
+        "type": "color"
+      },
+      "boostTintLightest": {
+        "value": "{semantic.color.boost.lightest.light}",
+        "type": "color"
+      },
+      "onBoost": {
+        "value": "{semantic.color.onBoost.light}",
         "type": "color"
       }
     }

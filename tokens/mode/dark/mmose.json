@@ -2,41 +2,21 @@
   "mode": {
     "color": {
       "onboardingFooterOverlay": {
-        "value": "{semantic.color.onboardingBottomBgGradient.light}",
+        "value": "{semantic.color.onboardingBottomBgGradient.dark}",
         "type": "color",
         "description": "previous 'mode.color.overlayOnboardingView'",
         "parent": "mode/light",
-        "oldValue": "{semantic.color.onboardingBottomBgGradient.light}"
-      },
-      "secondary": {
-        "value": "{semantic.color.accent2.normal.light}",
-        "type": "color"
-      },
-      "onSecondary": {
-        "value": "{semantic.color.onAccent2.light}",
-        "type": "color"
-      },
-      "secondaryTint": {
-        "value": "{semantic.color.accent2.lighter.light}",
-        "type": "color"
-      },
-      "secondaryTintLightest": {
-        "value": "{semantic.color.accent2.lightest.light}",
-        "type": "color"
-      },
-      "secondaryDark": {
-        "value": "{semantic.color.accent2.darker.light}",
-        "type": "color"
+        "oldValue": "{semantic.color.onboardingBottomBgGradient.dark}"
       },
       "surface": {
-        "value": "{semantic.color.surface.light}",
+        "value": "{semantic.color.surface.dark}",
         "type": "color",
         "description": "not used in affinity brands. Need to rename/rethink. 'mode.color.surface' serves as the base surface color for UI elements, providing a neutral backdrop for content.",
         "parent": "mode/light",
-        "oldValue": "{semantic.color.action.light}"
+        "oldValue": "{semantic.color.action.dark}"
       },
       "onPromo": {
-        "value": "{semantic.color.onPromo.normal.light}",
+        "value": "{semantic.color.onPromo.normal.dark}",
         "type": "color"
       },
       "profileHighlight": {
@@ -48,166 +28,84 @@
         "value": "linear-gradient(90deg, rgba(255,97,126,1) 0%, rgba(145,82,193,1) 35%, rgba(92,102,240,1) 100%)",
         "type": "color"
       },
-      "alertDark": {
-        "value": "{semantic.color.alert.darker.light}",
-        "type": "color"
-      },
-      "alertTintLightest": {
-        "value": "{semantic.color.alert.lightest.light}",
-        "type": "color"
-      },
       "onlineSecondary": {
-        "value": "{semantic.color.online.secondary.light}",
-        "type": "color"
-      },
-      "likeAlc": {
-        "value": "{semantic.color.likeAlc.normal.light}",
-        "type": "color"
-      },
-      "onLikeAlc": {
-        "value": "{semantic.color.onLikeAlc.light}",
-        "type": "color"
-      },
-      "likeAlcTint": {
-        "value": "{semantic.color.likeAlc.lighter.light}",
-        "type": "color"
-      },
-      "likeAlcTintLightest": {
-        "value": "{semantic.color.likeAlc.lightest.light}",
-        "type": "color"
-      },
-      "likeAlcDark": {
-        "value": "{semantic.color.likeAlc.darker.light}",
-        "type": "color"
-      },
-      "boost": {
-        "value": "{semantic.color.boost.normal.light}",
-        "type": "color"
-      },
-      "boostTint": {
-        "value": "{semantic.color.boost.lighter.light}",
-        "type": "color"
-      },
-      "boostTintLightest": {
-        "value": "{semantic.color.boost.lightest.light}",
-        "type": "color"
-      },
-      "onBoost": {
-        "value": "{semantic.color.onBoost.light}",
+        "value": "{semantic.color.online.secondary.dark}",
         "type": "color"
       },
       "mbm": {
-        "value": "{semantic.color.mbm.normal.light}",
+        "value": "{semantic.color.mbm.normal.dark}",
         "type": "color"
       },
       "mbmTintLightest": {
-        "value": "{semantic.color.mbm.lightest.light}",
+        "value": "{semantic.color.mbm.lightest.dark}",
         "type": "color"
       },
       "mbmTint": {
-        "value": "{semantic.color.mbm.lighter.light}",
+        "value": "{semantic.color.mbm.lighter.dark}",
         "type": "color"
       },
       "mbmDark": {
-        "value": "{semantic.color.mbm.darker.light}",
+        "value": "{semantic.color.mbm.darker.dark}",
         "type": "color",
         "description": "used on text and button states"
       },
-      "mbmGradient": {
-        "value": "{semantic.color.mbm.gradient.light}",
-        "type": "color"
-      },
       "onMbm": {
-        "value": "{semantic.color.onMbm.light}",
+        "value": "{semantic.color.onMbm.dark}",
         "type": "color"
       },
       "like": {
-        "value": "{semantic.color.like.normal.light}",
+        "value": "{semantic.color.like.normal.dark}",
         "type": "color"
       },
       "likeTint": {
-        "value": "{semantic.color.like.lighter.light}",
+        "value": "{semantic.color.like.lighter.dark}",
         "type": "color"
       },
       "likeTintLightest": {
-        "value": "{semantic.color.like.lightest.light}",
+        "value": "{semantic.color.like.lightest.dark}",
         "type": "color"
       },
       "onLike": {
-        "value": "{semantic.color.onLike.light}",
+        "value": "{semantic.color.onLike.dark}",
         "type": "color"
       },
       "likeDark": {
-        "value": "{semantic.color.like.darker.light}",
+        "value": "{semantic.color.like.darker.dark}",
         "type": "color"
       },
       "gamepad": {
         "mbm": {
-          "background": {
-            "default": {
-              "value": "{semantic.color.mbm.normal.light}",
-              "type": "color",
-              "description": "🚧 WIP for brand expansions."
-            },
-            "pressed": {
-              "value": "{semantic.color.mbm.darker.light}",
-              "type": "color",
-              "description": "🚧 WIP for brand expansions."
-            }
-          },
-          "foreground": {
-            "default": {
-              "value": "{semantic.color.onMbm.light}",
-              "type": "color",
-              "description": "🚧 WIP for brand expansions."
-            },
-            "pressed": {
-              "value": "{semantic.color.onMbm.light}",
-              "type": "color",
-              "description": "🚧 WIP for brand expansions."
-            },
-            "remaining": {
-              "value": "{core.color.white.100}",
-              "type": "color",
-              "description": "🚧 WIP for brand expansions."
-            }
-          },
-          "border": {
-            "remaining": {
-              "value": "{semantic.color.mbm.normal.light}",
-              "type": "color",
-              "description": "🚧 WIP for brand expansions."
-            }
-          }
+          "value": "{semantic.color.mbm.normal.dark}",
+          "type": "color"
         },
         "like": {
           "background": {
             "default": {
-              "value": "{semantic.color.like.normal.light}",
+              "value": "{semantic.color.like.normal.dark}",
               "type": "color",
               "description": "🚧 WIP for brand expansions."
             },
             "pressed": {
-              "value": "{semantic.color.like.darker.light}",
+              "value": "{semantic.color.like.darker.dark}",
               "type": "color",
               "description": "🚧 WIP for brand expansions."
             }
           },
           "foreground": {
             "default": {
-              "value": "{semantic.color.onLike.light}",
+              "value": "{semantic.color.onLike.dark}",
               "type": "color",
               "description": "🚧 WIP for brand expansions."
             },
             "pressed": {
-              "value": "{semantic.color.onLike.light}",
+              "value": "{semantic.color.onLike.dark}",
               "type": "color",
               "description": "🚧 WIP for brand expansions."
             }
           },
           "dropshadow": {
             "pressed": {
-              "value": "{semantic.color.like.normal.light}",
+              "value": "{semantic.color.like.normal.dark}",
               "type": "color",
               "description": "🚧 WIP for brand expansions."
             }
@@ -216,24 +114,24 @@
         "pass": {
           "background": {
             "default": {
-              "value": "{semantic.color.pass.normal.light}",
+              "value": "{semantic.color.pass.normal.dark}",
               "type": "color",
               "description": "🚧 WIP for brand expansions."
             },
             "pressed": {
-              "value": "{semantic.color.pass.darker.light}",
+              "value": "{semantic.color.pass.darker.dark}",
               "type": "color",
               "description": "🚧 WIP for brand expansions."
             }
           },
           "foreground": {
             "default": {
-              "value": "{semantic.color.onPass.light}",
+              "value": "{semantic.color.onPass.dark}",
               "type": "color",
               "description": "🚧 WIP for brand expansions."
             },
             "pressed": {
-              "value": "{semantic.color.onPass.light}",
+              "value": "{semantic.color.onPass.dark}",
               "type": "color",
               "description": "🚧 WIP for brand expansions."
             }
@@ -242,31 +140,31 @@
         "likeAlc": {
           "background": {
             "default": {
-              "value": "{semantic.color.likeAlc.normal.light}",
+              "value": "{semantic.color.likeAlc.normal.dark}",
               "type": "color",
               "description": "🚧 WIP for brand expansions."
             },
             "pressed": {
-              "value": "{semantic.color.likeAlc.darker.light}",
+              "value": "{semantic.color.likeAlc.darker.dark}",
               "type": "color",
               "description": "🚧 WIP for brand expansions."
             }
           },
           "foreground": {
             "default": {
-              "value": "{semantic.color.onLikeAlc.light}",
+              "value": "{semantic.color.onLikeAlc.dark}",
               "type": "color",
               "description": "🚧 WIP for brand expansions."
             },
             "pressed": {
-              "value": "{semantic.color.onLikeAlc.light}",
+              "value": "{semantic.color.onLikeAlc.dark}",
               "type": "color",
               "description": "🚧 WIP for brand expansions."
             }
           },
           "border": {
             "remaining": {
-              "value": "{semantic.color.likeAlc.normal.light}",
+              "value": "{semantic.color.likeAlc.normal.dark}",
               "type": "color",
               "description": "🚧 WIP for brand expansions."
             }
