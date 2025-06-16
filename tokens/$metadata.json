@@ -31,13 +31,13 @@
     "semantic/okcupid",
     "semantic/pof",
     "semantic/even",
-    "mode/light/central",
-    "mode/light/mmose",
-    "mode/light/pof",
-    "mode/light/affinity",
-    "mode/dark/central",
-    "mode/dark/affinity",
-    "mode/dark/pof",
-    "mode/dark/mmose"
+    "mode/light",
+    "mode/dark",
+    "mode/affinity/light",
+    "mode/affinity/dark",
+    "mode/match/light",
+    "mode/match/dark",
+    "mode/pof/light",
+    "mode/pof/dark"
   ]
 }
